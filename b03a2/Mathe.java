@@ -23,7 +23,7 @@ public class Mathe {
     String str = "";
     // As long as i is not (n + 1) execute the while loop:
     while (i != (n + 1)) {
-      // Call the method vielfache with the parameters i and n, and ppend the result to str.
+      // Call the method vielfache with the parameters i and n, and append the result to str.
       str += vielfache(i, n);
       // pre add the numerator i by one.
       ++i;
