@@ -14,9 +14,9 @@ public class Eingabe {
       // add next double to a
       a += sc.nextDouble();
       //increase counter by one.
-      ++ counter;
+      ++counter;
       // Divide a by the variable counter
-      a = (sc.hasNextDouble()) ? a: a / counter;
+      a = (sc.hasNextDouble()) ? a : a / counter;
     }
     // return a
     return a;

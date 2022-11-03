@@ -3,7 +3,7 @@
  *  Class Eingabe with the method zaehlen
  */
 import java.util.Scanner;
-public class Eingabe{
+public class Eingabe {
   public static int zaehlen(Scanner sc, String s) {
     // initialize the counter variable a
     int a = 0;
