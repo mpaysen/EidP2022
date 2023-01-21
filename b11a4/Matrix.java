@@ -87,6 +87,9 @@ public class Matrix {
     if (f == null) {
       throw new NullPointerException();
     }
+    if (this.zeilen() < f.length + 1) {
+      throw new IllegalArgumentException();
+    }
     if (z >= this.rows || z < 0) {
       throw new IllegalArgumentException();
     }
@@ -103,6 +106,9 @@ public class Matrix {
   public Matrix setSpalte(int s, double[] f) {
     if (f == null) {
       throw new NullPointerException();
+    }
+    if (this.spalten() < f.length + 1) {
+      throw new IllegalArgumentException();
     }
     if (s >= this.columns || s < 0) {
       throw new IllegalArgumentException();
